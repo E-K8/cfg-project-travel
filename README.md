@@ -1,1 +1,3 @@
-# cfg-project-travel
+# Code First Girls course in web development
+
+team project
