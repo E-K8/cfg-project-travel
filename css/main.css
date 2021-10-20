@@ -1,0 +1,54 @@
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+}
+.header__logo {
+  max-height: 3rem;
+}
+.header__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.header__link {
+  text-decoration: none;
+}
+.subheader {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.footer {
+  display: flex;
+}
+.footer__image {
+  max-height: 3rem;
+}
+.footer__madeby ul li {
+  list-style: none;
+}
+.footer__explore ul li {
+  list-style: none;
+}
+.footer__explore__link {
+  text-decoration: none;
+}
+.footer__useful ul li {
+  list-style: none;
+}
+.footer__useful__link {
+  text-decoration: none;
+}
+
+.btn {
+  text-transform: uppercase;
+}
