@@ -1,12 +1,16 @@
 * {
   font-family: "Be Vietnam Pro", sans-serif;
-  outline: 2px solid purple;
+  /* outline: 2px solid purple; */
+}
+
+h4 {
+  font-style: italic;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   align-items: center;
 }
 
@@ -15,18 +19,31 @@
 .header {
   display: flex;
   background-color: #105977;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
 }
 .header__logo {
   max-height: 3rem;
 }
+
+.header__nav {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+}
+
 .header__list {
   list-style: none;
   display: flex;
+  width: 100%;
   justify-content: space-around;
 }
 .header__link {
   text-decoration: none;
   color: #fff;
+  font-size: 1.3rem;
 }
 .subheader {
   display: flex;
@@ -58,9 +75,12 @@
   display: flex;
   background-color: #105977;
   color: #fff;
+  padding: 0 1.5rem;
+  justify-content: space-between;
 }
 .footer__image {
   max-height: 3rem;
+  margin-top: 1.5rem;
 }
 .footer__madeby ul li {
   list-style: none;
