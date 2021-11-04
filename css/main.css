@@ -1,6 +1,7 @@
 * {
   font-family: "Be Vietnam Pro", sans-serif;
-  /* outline: 2px solid purple; */
+  /* overflow-x: hidden; */
+  outline: 2px solid purple;
 }
 
 h4 {
@@ -38,7 +39,7 @@ h4 {
   list-style: none;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .header__link {
   text-decoration: none;
@@ -78,6 +79,12 @@ h4 {
   padding: 0 1.5rem;
   justify-content: space-between;
 }
+
+.footer__nav {
+  display: flex;
+  align-items: flex-start;
+}
+
 .footer__image {
   max-height: 3rem;
   margin-top: 1.5rem;
