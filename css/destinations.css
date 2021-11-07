@@ -1,0 +1,248 @@
+                                                    * {
+                                                        font-family: "Be Vietnam Pro", sans-serif;
+                                                    }
+                                                    
+                                                    .headerBanner {
+                                                        width: 100%;
+                                                        height: auto;
+                                                        border-bottom: #105977 2px solid;
+                                                    }
+                                                    
+                                                    h2 {
+                                                        text-align: center;
+                                                        padding-top: 25px;
+                                                    }
+                                                    
+                                                    .topnav {
+                                                        width: 100%;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                    }
+                                                    
+                                                    .search {
+                                                        width: 300px;
+                                                        padding: 10px;
+                                                        margin: 10px;
+                                                        border: black;
+                                                        border-style: solid;
+                                                        border-width: 1px;
+                                                    }
+                                                    
+                                                    .intro {
+                                                        text-align: center;
+                                                        margin-left: 20%;
+                                                        margin-right: 20%;
+                                                        padding: 20px;
+                                                        line-height: 30px;
+                                                        font-size: 18px;
+                                                        font-style: normal;
+                                                        color: black;
+                                                    }
+                                                    
+                                                    .dropdowns {
+                                                        text-align: center;
+                                                        margin-left: 10%;
+                                                        margin-right: 10%;
+                                                        margin-top: 20px;
+                                                        padding: 10px;
+                                                        align-content: space-around;
+                                                    }
+                                                    
+                                                    .btns {
+                                                        text-align: center;
+                                                        margin-right: 10%;
+                                                        margin-left: 10%;
+                                                        padding: 10px;
+                                                        align-content: space-between;
+                                                    }
+                                                    
+                                                    .btn1 {
+                                                        background: #105977;
+                                                        color: white;
+                                                        padding: 10px;
+                                                        box-shadow: none;
+                                                        border: none;
+                                                        margin-right: 35px;
+                                                        margin-bottom: 50px;
+                                                        margin-top: 25px;
+                                                    }
+                                                    
+                                                    .btn1:hover {
+                                                        opacity: 85%;
+                                                    }
+                                                    
+                                                    .btn2 {
+                                                        background: white;
+                                                        color: #105977;
+                                                        padding: 10px;
+                                                        box-shadow: none;
+                                                        border: none;
+                                                        margin-bottom: 25px;
+                                                    }
+                                                    
+                                                    .btn2:hover {
+                                                        background-color: #105977;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .videos {
+                                                        text-align: center;
+                                                        margin: 45px;
+                                                    }
+                                                    
+                                                    .images {
+                                                        width: auto;
+                                                        height: auto;
+                                                        display: flex;
+                                                        grid-template-columns: 1fr 1fr;
+                                                        grid-template-rows: 1fr 1fr 1fr 1fr;
+                                                        gap: 0px 0px;
+                                                        grid-template-areas: ". ." ". ." ". ." ". .";
+                                                        overflow: scroll;
+                                                        border-bottom: #105977 2px solid;
+                                                    }
+                                                    
+                                                    select.budget {
+                                                        background-color: lightcyan;
+                                                        margin-right: 70px;
+                                                    }
+                                                    
+                                                    select.location {
+                                                        background-color: lightcyan;
+                                                        margin-right: 70px;
+                                                    }
+                                                    
+                                                    select.star {
+                                                        background-color: lightcyan;
+                                                    }
+                                                    
+                                                    .container1 {
+                                                        background-color: rgb(226, 235, 248);
+                                                    }
+                                                    
+                                                    .inspo {
+                                                        background-image: url(https://images.pexels.com/photos/5232649/pexels-photo-5232649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+                                                        border-bottom: #105977 2px solid;
+                                                        border-top: #105977 2px solid;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .explore {
+                                                        color: #105977;
+                                                        font-size: 30px;
+                                                    }
+                                                    
+                                                    .browse {
+                                                        color: #105977;
+                                                    }
+                                                    
+                                                    .imgHover:hover {
+                                                        opacity: 70%;
+                                                    }
+                                                    
+                                                    .iconSet {
+                                                        height: 30px;
+                                                        padding: 20px;
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    .iconSet:hover {
+                                                        opacity: 70%;
+                                                    }
+                                                    
+                                                    #iconSet {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                    }
+                                                    
+                                                    #blogLink {
+                                                        color: #105977;
+                                                    }
+                                                    /* HEADER STYLES */
+                                                    
+                                                    .header {
+                                                        display: flex;
+                                                        background-color: #105977;
+                                                        padding: 0 1.5rem;
+                                                        justify-content: space-between;
+                                                        align-items: center;
+                                                        height: 5rem;
+                                                    }
+                                                    
+                                                    .header__logo {
+                                                        max-height: 3rem;
+                                                    }
+                                                    
+                                                    .header__nav {
+                                                        display: flex;
+                                                        justify-content: end;
+                                                        width: 80%;
+                                                    }
+                                                    
+                                                    .header__list {
+                                                        list-style: none;
+                                                        display: flex;
+                                                        width: 100%;
+                                                        justify-content: space-between;
+                                                    }
+                                                    
+                                                    .header__link {
+                                                        text-decoration: none;
+                                                        color: #fff;
+                                                        font-size: 1.3rem;
+                                                    }
+                                                    
+                                                    .subheader {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        text-transform: uppercase;
+                                                    }
+                                                    /* FOOTER STYLES */
+                                                    
+                                                    .footer {
+                                                        display: flex;
+                                                        background-color: #105977;
+                                                        color: #fff;
+                                                        padding: 0 1.5rem;
+                                                        justify-content: space-between;
+                                                    }
+                                                    
+                                                    .footer__nav {
+                                                        display: flex;
+                                                        align-items: flex-start;
+                                                    }
+                                                    
+                                                    .footer__image {
+                                                        max-height: 3rem;
+                                                        margin-top: 1.5rem;
+                                                    }
+                                                    
+                                                    .footer__madeby ul li {
+                                                        list-style: none;
+                                                    }
+                                                    
+                                                    .footer__explore ul li {
+                                                        list-style: none;
+                                                    }
+                                                    
+                                                    .footer__explore__link {
+                                                        text-decoration: none;
+                                                        color: #fff;
+                                                    }
+                                                    
+                                                    .footer__useful ul li {
+                                                        list-style: none;
+                                                    }
+                                                    
+                                                    .footer__useful__link {
+                                                        text-decoration: none;
+                                                        color: #fff;
+                                                    }
+                                                    
+                                                    .btn {
+                                                        text-transform: uppercase;
+                                                    }
+                                                    
+                                                    .btn {
+                                                        text-transform: uppercase;
+                                                    }
