@@ -17,16 +17,16 @@
   <body>
     <!-- HEADER (KATE) -->
     <header class="header">
-      <a href="index.html">
+      <a href="./index.html">
         <img src="./images/plane.png" alt="logo" class="header__logo" />
       </a>
       <nav class="header__nav">
         <ul class="header__list">
-          <li><a href="" class="header__link">Destinations</a></li>
+          <li><a href="./destinations.html" class="header__link">Destinations</a></li>
           <li><a href="" class="header__link">Excursions</a></li>
           <li><a href="" class="header__link">Travel advice</a></li>
           <li><a href="" class="header__link">Blog</a></li>
-          <li><a href="" class="header__link">Get in Touch</a></li>
+          <li><a href="#contact" class="header__link">Get in Touch</a></li>
         </ul>
       </nav>
     </header>
@@ -41,7 +41,7 @@
             src="./images/destination_croatia.jpg"
             alt="Dubrovnik"
           />
-          <p>Destinations</p>
+          <p><a class="gallery__link" href="./destinations.html">Destinations</a></p>
         </div>
         <div class="gallery__card">
           <img
@@ -49,7 +49,7 @@
             src="./images/excursions_greece.jpg"
             alt="Guatemala"
           />
-          <p>Excursions</p>
+          <p><a class="gallery__link" href="">Excursions</a></p>
         </div>
         <div class="gallery__card">
           <img
@@ -57,16 +57,16 @@
             src="./images/experiences_flying.jpg"
             alt="baloon"
           />
-          <p>Experiences</p>
+          <p><a class="gallery__link" href="">Experiences</a></p>
         </div>
       </section>
     </main>
 
     <!-- FOOTER (KATE) -->
     <footer class="footer">
-      <div>
+      <a href="./index.html">
         <img class="footer__image" src="./images/plane.png" alt="" />
-      </div>
+      </a>
 
       <div class="footer__nav">
         <div class="footer__madeby">
@@ -84,7 +84,7 @@
             <li>
               <h3>Explore</h3>
             </li>
-            <li><a href="" class="footer__explore__link">Destinations</a></li>
+            <li><a href="./destinations.html" class="footer__explore__link">Destinations</a></li>
             <li><a href="" class="footer__explore__link">Excursions</a></li>
             <li><a href="" class="footer__explore__link">Travel advice</a></li>
             <li><a href="" class="footer__explore__link">Blog</a></li>
@@ -104,7 +104,7 @@
           </ul>
         </div>
 
-        <form class="footer__form">
+        <form id="contact" class="footer__form">
           <h3>Get in Touch</h3>
           <div>
             <label for="name">Name</label>
@@ -122,7 +122,7 @@
               id="message"
               name="message"
               rows="4"
-              cols="50"
+              cols="40"
               maxlength="50"
             >
                     Type here</textarea
