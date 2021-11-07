@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Rubik+Beastly&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/plane.png" type="image/png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <script src="scripts/script.js"></script>
+    <title>Blog</title>
+</head>
+
+<!-- HEADER (KATE) -->
+<header class="header">
+    <a href="./index.html">
+      <img src="./images/plane.png" alt="logo" class="header__logo" />
+    </a>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li><a href="./destinations.html" class="header__link">Destinations</a></li>
+        <li><a href="" class="header__link">Excursions</a></li>
+        <li><a href="" class="header__link">Travel advice</a></li>
+        <li><a href="" class="header__link">Blog</a></li>
+        <li><a href="#contact" class="header__link">Get in Touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <!--Travel blog page (JESS)-->
+
+<main class="container">
+    <div class="container1">
+        <h1 class="blog_title">Blog</h1>
+    </div>
+
+    <div class="first"><h2>Closer to Home Holidays</h2>
+      <img class="blogPost" alt="Closer to Home Holidays" src="images/chippenham.jpg">
+      <img class="blogPost2" alt="Closer to Home Holidays" src="images/London.jpg">
+      <p>Within the UK, there has been a recent spike in breaks closer to home.
+    These include Coastal Cottages, Long weekends in London and British Countryside escapes.</p>
+    </div>
+
+    <div class="second"> <h2>Rise in Workcations </h2>
+      <img class="blogPost" alt="The rise of the Workcation" src="images/workcation.jpg">
+      <img class="blogPost2" alt="The rise of the Workcation" src="images/workcation2.jpg">
+      <p>With companies becoming more flexible, and some even changing contracts that enable working from another country for 3 months a year, the workcation has become the new buzzword.
+          Working anywhere in the world is great but here are some things to look out for and keep in mind when staying for longer. </p>
+          </br>
+    
+          <!--reactive checklist -->
+    
+      <div class= "checklist">
+        <h2 id= workcation class= "WorkcationList">Workcation checklist - click to check off</h2>
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" name="">
+              <span class="icon"></span>
+              <span class="list">Wifi! - This is a must for any worktrip</span> 
+            </label>
+          </li>  
+          <li>
+            <label>
+              <input type="checkbox" name="">
+              <span class="icon"></span>
+              <span class="list">affordability - Staying for a long time and the pennies will add up</span> 
+            </label>  
+          </li> 
+          <li>
+            <label>
+              <input type="checkbox" name="">
+              <span class="icon"></span>
+              <span class="list">time difference - You don't want to be working in the evenings or you may aswell be home</span> 
+            </label>  
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="">
+              <span class="icon"></span>
+              <span class="list">Covid quarantine rules - Keep up to date on the government website</span> 
+            </label>
+          </li> 
+          <li>
+            <label>
+              <input type="checkbox" name="">
+              <span class="icon"></span>
+              <span class="list">Family distractions - travelling with family and you may want to make sure they are out during the day</span> 
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="third"> <h2>A Walk on the Wild Side </h2>
+       <img class="blogPost" alt="A Walk on the Wild Side" src="images/wildwalk.jpg">
+       <img class="blogPost2" alt="A Walk on the Wild Side" src="images/wild walk 2">
+       <p>With so much time cooped up over the last couple of years, rambling has become more important than ever. It boosts mood, connects us to nature and has the added benefit of being good for your health. </p>
+    </div>
+
+   
+    <form name ="quiz" id="quiz">
+    <div>
+        <p>What is the Capital City of New Zealand?</p>
+        <p><input type="radio" name="question1" value="Wellington">A. Wellington</p>
+        <p><input type="radio" name="question1" value="Auckland">B. Auckland</p>
+    </div>
+    <div>
+      <p>Which is the Capital City of Israel?</p>
+        <p><input type="radio" name="question2" value="Tel Aviv">A. Tel Aviv</p>
+        <p><input type="radio" name="question2" value="Jerusalem">B. Jerusalem</p>
+    </div>
+    <div>
+        <p>Which is the Capital City of Switzerland?</p>
+          <p><input type="radio" name="question3" value="Bern">A. Bern</p>
+          <p><input type="radio" name="question3" value="Geneva">B. Geneva</p>
+    </div>
+    <div>
+      <p>Which is the Capital City of Brazil?</p>
+        <p><input type="radio" name="question4" value="Brasilia">A. Brasilia</p>
+        <p><input type="radio" name="question4" value="Rio de Janeiro">B. Rio de Janeiro</p>
+    </div>
+
+    <input id =submitButton type="button" name ="" value="submit" onclick="check()">
+    </form>  
+
+    <p id= "results"></p>
+    <script language = "javascript" type=text/javascript src="scripts/travel_blog.js"></script>
+    
+</div>
+  </div>
+     
+</main>
+
+     <!-- FOOTER (KATE) -->
+     <footer class="footer">
+        <div>
+            <img class="footer__image" src="./images/plane.png" alt=" " />
+        </div>
+
+        <div class="footer__nav">
+            <div class="footer__madeby">
+                <ul>
+                    <li>
+                        <h4>Website Created by</h4>
+                    </li>
+                    <li>Code First Girls Travel Team🌎</li>
+                    <li>Copyright &copy; 2021</li>
+                </ul>
+            </div>
+
+            <div class="footer__explore">
+                <ul>
+                    <li>
+                        <h3>Explore</h3>
+                    </li>
+                    <li><a href=" " class="footer__explore__link">Destinations</a></li>
+                    <li><a href=" " class="footer__explore__link">Excursions</a></li>
+                    <li><a href=" " class="footer__explore__link">Travel advice</a></li>
+                    <li><a href=" " class="footer__explore__link">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__useful">
+                <ul>
+                    <li>
+                        <h3>Useful links</h3>
+                    </li>
+                    <li><a href=" " class="footer__useful__link">Privacy Policy</a></li>
+                    <li><a href=" " class="footer__useful__link">Cookie Policy</a></li>
+                    <li>
+                        <a href=" " class="footer__useful__link">Terms and Conditions</a>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="footer__form">
+                <h3>Get in Touch</h3>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" value="Your name" />
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="Your email" />
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" cols="50" maxlength="50">
+                  Type here</textarea
+          >
+        </div>
+
+        <button class="btn">submit</button>
+      </form>
+    </div>
+  </footer>
+</body>
+
+
+</html>
