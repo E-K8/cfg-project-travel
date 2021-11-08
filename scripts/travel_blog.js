@@ -7,7 +7,7 @@
 	var results= document.getElementById("results");
 	var quiz= document.getElementById("quiz");
 	if(q1 == "Wellington") {i++}
-	if(q2 == "Tel Aviv") {i++}
+	if(q2 == "Jerusalem") {i++}
 	if(q3 == "Bern") {i++}
 	if(q4 == "Brasilia") {i++}
 	quiz.style.display= "none";
@@ -21,5 +21,3 @@
 	}
 }
 
-
-	
