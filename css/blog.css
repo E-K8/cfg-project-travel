@@ -203,9 +203,15 @@ text-transform: uppercase;
 
 /* quiz*/
 
+.quizTitle {
+  align-content: center;
+  margin-bottom: 2rem;
+}
+
 #quiz {
   background-color: slategray;
   margin-bottom: 2rem;
+  
 }
 
 #submitButton {
@@ -262,4 +268,3 @@ text-transform: uppercase;
 .btn {
   text-transform: uppercase;
 }
-
