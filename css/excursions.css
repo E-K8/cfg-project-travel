@@ -1,0 +1,143 @@
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+    /* overflow-x: hidden; */
+  }
+  
+  .title {
+    display: flex;
+    padding: 0 1.5rem;
+    align-items: center;
+    height: 5rem;
+    justify-content: center;
+    padding: 0 1.5rem;
+   
+  }
+
+
+  h4 {
+    font-style: italic;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+  }
+  
+  /* HEADER STYLES */
+  
+  .header {
+    display: flex;
+    background-color: #105977;
+    padding: 0 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+  }
+  .header__logo {
+    max-height: 3rem;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+  }
+  
+  .header__list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  .subheader {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+
+
+/* EXCURSIONS CSS */
+
+.destinations{
+    width: 1200px;
+    height:600px;
+    background: #ccc;
+    margin: 10px auto;
+    display: flex;
+}
+
+.col{
+    height: 100%;
+    flex: 1;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 25px;
+    position: relative;
+}
+
+.col:nth-child(1){
+    background:powderblue;
+}
+.col:nth-child(2){
+    background:darkcyan;
+}
+.col:nth-child(3){
+    background:olivedrab;
+
+}
+
+.col img{
+    width: 300px;
+    position: absolute;
+    right: 5%;
+    bottom: 2.5%;
+}
+
+
+
+/* FOOTER STYLES */
+.footer {
+    display: flex;
+    background-color: #105977;
+    color: #fff;
+    padding: 0 1.5rem;
+    justify-content: space-between;
+  }
+  
+  .footer__nav {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .footer__image {
+    max-height: 3rem;
+    margin-top: 1.5rem;
+  }
+  .footer__madeby ul li {
+    list-style: none;
+  }
+  .footer__explore ul li {
+    list-style: none;
+  }
+  .footer__explore__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  .footer__useful ul li {
+    list-style: none;
+  }
+  .footer__useful__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btn {
+    text-transform: uppercase;
+  }
