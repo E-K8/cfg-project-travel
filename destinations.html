@@ -15,38 +15,37 @@
 
 <!-- HEADER (KATE) -->
 
-<body>
-    <header class="header">
-        <a href="index.html">
-            <img src="./images/plane.png" alt="logo" class="header__logo" />
-        </a>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li><a href="" class="header__link">Destinations</a></li>
-                <li><a href="" class="header__link">Excursions</a></li>
-                <li><a href="" class="header__link">Travel advice</a></li>
-                <li><a href="" class="header__link">Blog</a></li>
-                <li><a href="" class="header__link">Get in Touch</a></li>
-            </ul>
-        </nav>
-    </header>
+<header class="header">
+    <a href="./index.html">
+        <img src="./images/plane.png" alt="logo" class="header__logo" />
+    </a>
+    <nav class="header__nav">
+        <ul class="header__list">
+            <li><a href="./destinations.html" class="header__link">Destinations</a></li>
+            <li><a href="" class="header__link">Excursions</a></li>
+            <li><a href="" class="header__link">Travel advice</a></li>
+            <li><a href="" class="header__link">Blog</a></li>
+            <li><a href="#contact" class="header__link">Get in Touch</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- DESTINATIONS PAGE CONTENT (GEORGIA)-->
-    <div class="container1">
-        <img src=" images/rsz_1destinationsbanner.jpg " class="headerBanner" alt=" Destinations ">
-        <h2 class="explore">Explore our Destinations</h2>
-        <div id="iconSet">
-            <img class="iconSet" alt=" icon1 " src=" images/output-onlinepngtools-3.png ">
-            <img class="iconSet" alt="icon2 " src="images/output-onlinepngtools-4.png ">
-            <img class="iconSet" alt="icon3 " src="images/output-onlinepngtools-5.png ">
-        </div>
-        <div class="topnav ">
-            <input type="text" placeholder="Search... " class="search">
-        </div>
+<!-- DESTINATIONS PAGE CONTENT (GEORGIA)-->
+<div class="container1">
+    <img src=" images/rsz_1destinationsbanner.jpg " class="headerBanner" alt=" Destinations ">
+    <h2 class="explore">Explore our Destinations</h2>
+    <div id="iconSet">
+        <img class="iconSet" alt=" icon1 " src=" images/output-onlinepngtools-3.png ">
+        <img class="iconSet" alt="icon2 " src="images/output-onlinepngtools-4.png ">
+        <img class="iconSet" alt="icon3 " src="images/output-onlinepngtools-5.png ">
+    </div>
+    <div class="topnav ">
+        <input type="text" placeholder="Search... " class="search">
+    </div>
 
-        <div class="dropdowns ">
-            <label for="budget">Budget:</label>
-            <select name="budget " class="budget ">
+    <div class="dropdowns ">
+        <label for="budget">Budget:</label>
+        <select name="budget " class="budget ">
                 <option value="- ">--</option>
                 <option value="£ ">£</option>
                 <option value="££ ">££</option>
@@ -54,8 +53,8 @@
             </select>
 
 
-            <label for="location">Location:</label>
-            <select name="location " class="location ">
+        <label for="location">Location:</label>
+        <select name="location " class="location ">
                 <option value="- ">--</option>
                 <option value="Europe ">Europe</option>
                 <option value="Africa ">Africa</option>
@@ -65,8 +64,8 @@
                 <option value="South America ">South America</option>
             </select>
 
-            <label for="star">Star Rating:</label>
-            <select name="star" class="star">
+        <label for="star">Star Rating:</label>
+        <select name="star" class="star">
                 <option value="- ">--</option>
                 <option value="1* ">1*</option>
                 <option value="2* ">2*</option>
@@ -77,128 +76,128 @@
             </select>
 
 
-            <div class="btns ">
-                <button onclick="pleaseWait()" class="btn1" type="button">Search destinations</button>
-            </div>
-        </div>
-        <div class="inspo ">
-            <h2>Looking for Inspiration?</h2>
-
-            <div class="videos ">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/lJ87yD_8u3U " title="YouTube video player " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-            <div class="btns ">
-                <button onclick="randomLocation() " class="btn2" type="button">Generate a random destination</button>
-            </div>
-        </div>
-        <h2 class="explore"> Browse Popular Locations</h2>
-
-        <div>
-            <div>
-                <div>
-                    <p class="intro">
-                        Are you looking for your next getaway or planning a trip of a lifetime?
-                        <br>
-                        <br> Check out our most popular destinations - from golden beaches and luxury hotels to adventure holidays and ski resorts.
-                        <br>
-                        <br> Not sure where to go?
-                        <br>
-                        <br> Use the random destination generator above for inspiration or visit our
-                        <a href="#" id="blogLink"> blog!
-                            </a>
-                    </p>
-                </div>
-            </div>
-
-
-
-            <div class="images">
-                <a href="https://youtu.be/QGAMTlI6XxY" target="_blank">
-                    <img class="imgHover" alt="hotairballoon" src="images/hotairballoon.jpeg">
-                </a>
-                <a href="https://youtu.be/XPGEGEBb6PE" target="_blank">
-                    <img class="imgHover" alt="Iceland" src="images/Iceland.jpeg">
-                </a>
-                <a href="https://youtu.be/zFYLu8NhVdw" target="_blank">
-                    <img class="imgHover" alt="ocean" src="images/ocean.jpeg">
-                </a>
-                <a href="https://www.campsites.co.uk " target="_blank">
-                    <img class="imgHover" alt="camping" src="images/tent.jpeg">
-                </a>
-                <a href="https://www.sailingholidays.com " target="_blank">
-                    <img class="imgHover" alt="harbour" src="images/harbour.jpeg">
-                </a>
-                <a href="https://youtu.be/BxEm9HbBYG8 " target="_blank">
-                    <img class="imgHover" alt="pool" src="images/pool.jpeg">
-                </a>
-                <a href="https://youtu.be/3ldqFSVOxIU " target="_blank">
-                    <img class="imgHover" alt="rural" src="images/rural.jpeg">
-                </a>
-                <a href="https://youtu.be/3Ay4Sk7NRCY " target="_blank">
-                    <img class="imgHover" alt="beach" src="images/beach.jpeg">
-                </a>
-            </div>
+        <div class="btns ">
+            <button onclick="pleaseWait()" class="btn1" type="button">Search destinations</button>
         </div>
     </div>
+    <div class="inspo ">
+        <h2>Looking for Inspiration?</h2>
 
-    <!-- FOOTER (KATE) -->
-    <footer class="footer">
-        <div>
-            <img class="footer__image" src="./images/plane.png" alt=" " />
+        <div class="videos ">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lJ87yD_8u3U " title="YouTube video player " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <div class="footer__nav">
-            <div class="footer__madeby">
-                <ul>
-                    <li>
-                        <h4>Website Created by</h4>
-                    </li>
-                    <li>Code First Girls Travel Team🌎</li>
-                    <li>Copyright &copy; 2021</li>
-                </ul>
+        <div class="btns ">
+            <button onclick="randomLocation() " class="btn2" type="button">Generate a random destination</button>
+        </div>
+    </div>
+    <h2 class="explore"> Browse Popular Locations</h2>
+
+    <div>
+        <div>
+            <div>
+                <p class="intro">
+                    Are you looking for your next getaway or planning a trip of a lifetime?
+                    <br>
+                    <br> Check out our most popular destinations - from golden beaches and luxury hotels to adventure holidays and ski resorts.
+                    <br>
+                    <br> Not sure where to go?
+                    <br>
+                    <br> Use the random destination generator above for inspiration or visit our
+                    <a href="#" id="blogLink"> blog!
+                            </a>
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="images">
+            <a href="https://youtu.be/QGAMTlI6XxY" target="_blank">
+                <img class="imgHover" alt="hotairballoon" src="images/hotairballoon.jpeg">
+            </a>
+            <a href="https://youtu.be/XPGEGEBb6PE" target="_blank">
+                <img class="imgHover" alt="Iceland" src="images/Iceland.jpeg">
+            </a>
+            <a href="https://youtu.be/zFYLu8NhVdw" target="_blank">
+                <img class="imgHover" alt="ocean" src="images/ocean.jpeg">
+            </a>
+            <a href="https://www.campsites.co.uk " target="_blank">
+                <img class="imgHover" alt="camping" src="images/tent.jpeg">
+            </a>
+            <a href="https://www.sailingholidays.com " target="_blank">
+                <img class="imgHover" alt="harbour" src="images/harbour.jpeg">
+            </a>
+            <a href="https://youtu.be/BxEm9HbBYG8 " target="_blank">
+                <img class="imgHover" alt="pool" src="images/pool.jpeg">
+            </a>
+            <a href="https://youtu.be/3ldqFSVOxIU " target="_blank">
+                <img class="imgHover" alt="rural" src="images/rural.jpeg">
+            </a>
+            <a href="https://youtu.be/3Ay4Sk7NRCY " target="_blank">
+                <img class="imgHover" alt="beach" src="images/beach.jpeg">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER (KATE) -->
+<footer class="footer">
+    <a href="./index.html">
+        <img class="footer__image" src="./images/plane.png" alt="" />
+    </a>
+
+    <div class="footer__nav">
+        <div class="footer__madeby">
+            <ul>
+                <li>
+                    <h4>Website Created by</h4>
+                </li>
+                <li>Code First Girls Travel Team🌎</li>
+                <li>Copyright &copy; 2021</li>
+            </ul>
+        </div>
+
+        <div class="footer__explore">
+            <ul>
+                <li>
+                    <h3>Explore</h3>
+                </li>
+                <li><a href="./destinations.html" class="footer__explore__link">Destinations</a></li>
+                <li><a href="" class="footer__explore__link">Excursions</a></li>
+                <li><a href="" class="footer__explore__link">Travel advice</a></li>
+                <li><a href="" class="footer__explore__link">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__useful">
+            <ul>
+                <li>
+                    <h3>Useful links</h3>
+                </li>
+                <li><a href="" class="footer__useful__link">Privacy Policy</a></li>
+                <li><a href="" class="footer__useful__link">Cookie Policy</a></li>
+                <li>
+                    <a href="" class="footer__useful__link">Terms and Conditions</a>
+                </li>
+            </ul>
+        </div>
+
+        <form id="contact" class="footer__form">
+            <h3>Get in Touch</h3>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" value="Your name" />
             </div>
 
-            <div class="footer__explore">
-                <ul>
-                    <li>
-                        <h3>Explore</h3>
-                    </li>
-                    <li><a href=" " class="footer__explore__link">Destinations</a></li>
-                    <li><a href=" " class="footer__explore__link">Excursions</a></li>
-                    <li><a href=" " class="footer__explore__link">Travel advice</a></li>
-                    <li><a href=" " class="footer__explore__link">Blog</a></li>
-                </ul>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="Your email" />
             </div>
 
-            <div class="footer__useful">
-                <ul>
-                    <li>
-                        <h3>Useful links</h3>
-                    </li>
-                    <li><a href=" " class="footer__useful__link">Privacy Policy</a></li>
-                    <li><a href=" " class="footer__useful__link">Cookie Policy</a></li>
-                    <li>
-                        <a href=" " class="footer__useful__link">Terms and Conditions</a>
-                    </li>
-                </ul>
-            </div>
-
-            <form class="footer__form">
-                <h3>Get in Touch</h3>
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" value="Your name" />
-                </div>
-
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" value="Your email" />
-                </div>
-
-                <div>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" cols="50" maxlength="50">
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" cols="40" maxlength="50">
                   Type here</textarea
           >
         </div>

@@ -1,0 +1,270 @@
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.headerBanner {
+  width: 100%;
+  height: auto;
+  border-bottom: #105977 2px solid;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.blogPost {
+    width: 33.3%;
+    height: 300px ;
+    padding: 5px;
+    float: left;
+
+  }
+
+  .blogPost2 {
+    width: 33.3%;
+    height: 300px ;
+    padding: 5px;
+    float: right;
+  }
+
+  /*moving list*/
+
+.checklist {
+  margin-top: 100px;
+  margin-left: 2rem;
+  min-height: 10em;
+  width: 100%;
+  float: inline-start;
+  vertical-align: middle;
+  background-color: slategray;
+}
+
+.WorkcationList {
+  margin-top: 100px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 10px 25px;
+  border: 1px;
+  border-top: none;
+}
+
+ul li {
+  list-style: none;
+  size: 5px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+ul li input[type="checkbox"] 
+{ 
+  display: none;
+}
+
+ul li span.list {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 5px;
+  transition: 0.5s;
+}
+
+ul li input[type= "checkbox"]:checked ~ span.list
+{
+color: skyblue;
+}
+
+ul li span.list:before
+{
+  content: '' ;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background: skyblue;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+
+ul li input[type= "checkbox"]:checked ~ span.list::before
+{
+  left: 100%;
+  transition-delay: 00.5s;
+}
+
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.header {
+display: flex;
+}
+.header__logo {
+max-height: 3rem;
+}
+.header__list {
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.header__link {
+text-decoration: none;
+}
+.subheader {
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+}
+
+.footer__image {
+max-height: 3rem;
+}
+.footer__madeby ul li {
+list-style: none;
+}
+.footer__explore ul li {
+list-style: none;
+}
+.footer__explore__link {
+text-decoration: none;
+}
+.footer__useful ul li {
+list-style: none;
+}
+.footer__useful__link {
+text-decoration: none;
+}
+
+.btn {
+text-transform: uppercase;
+}
+
+ /* HEADER STYLES */
+                                                    
+ .header {
+  display: flex;
+  background-color: #105977;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.header__logo {
+  max-height: 3rem;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+/* title */
+
+.blog_title {
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* quiz*/
+
+.quizTitle {
+  align-content: center;
+  margin-bottom: 2rem;
+}
+
+#quiz {
+  background-color: slategray;
+  margin-bottom: 2rem;
+  
+}
+
+#submitButton {
+  background-color: rgb(7, 7, 6);
+  color: #fff;
+
+}
+/* FOOTER STYLES */
+
+.footer {
+  display: flex;
+  background-color: #105977;
+  color: #fff;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__image {
+  max-height: 3rem;
+  margin-top: 1.5rem;
+}
+
+.footer__madeby ul li {
+  list-style: none;
+}
+
+.footer__explore ul li {
+  list-style: none;
+}
+
+.footer__explore__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__useful ul li {
+  list-style: none;
+}
+
+.footer__useful__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn {
+  text-transform: uppercase;
+}

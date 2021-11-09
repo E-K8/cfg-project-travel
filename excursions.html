@@ -10,63 +10,79 @@
     />
     <link rel="shortcut icon" href="./images/plane.png" type="image/png" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>TRAVEL</title>
+    <link rel="stylesheet" href="./css/excursions.css">
+    <title>EXCURSIONS</title>
   </head>
 
   <body>
     <!-- HEADER (KATE) -->
     <header class="header">
-      <a href="./index.html">
+      <a href="index.html">
         <img src="./images/plane.png" alt="logo" class="header__logo" />
       </a>
       <nav class="header__nav">
         <ul class="header__list">
-          <li><a href="./destinations.html" class="header__link">Destinations</a></li>
+          <li><a href="" class="header__link">Destinations</a></li>
           <li><a href="" class="header__link">Excursions</a></li>
           <li><a href="" class="header__link">Travel advice</a></li>
           <li><a href="" class="header__link">Blog</a></li>
-          <li><a href="#contact" class="header__link">Get in Touch</a></li>
+          <li><a href="" class="header__link">Get in Touch</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="container">
-      <h1 class="subheader">plan your next getaway</h1>
 
-      <section class="gallery">
-        <div class="gallery__card">
-          <img
-            class="gallery__image"
-            src="./images/destination_croatia.jpg"
-            alt="Dubrovnik"
-          />
-          <p><a class="gallery__link" href="./destinations.html">Destinations</a></p>
+
+
+<!--- EXCURSIONS (SOPHIE)-->
+
+<div class="title">
+    <h1>Things To Do</h1>
+</div>
+
+
+<div class = "destinations">
+
+    <div class="col">
+        <h2>Rome</h2>
+        <div class="caption">
+            <h3>Visit the Colosseum</h3>
+            <p> With a capacity of more than 50,000 spectators, it’s the largest amphitheater in the Roman world.  Quite much blood was shed in these arenas, where the famous gladiatorial combats, animals fights and Roman games were held, always followed by horrific deaths.</p>
         </div>
-        <div class="gallery__card">
-          <img
-            class="gallery__image"
-            src="./images/excursions_greece.jpg"
-            alt="Guatemala"
-          />
-          <p><a class="gallery__link" href="">Excursions</a></p>
+        <img class="romeImage" src="images/rome1.jpeg" alt="Rome ">
+    </div>
+
+    <div class="col">
+        <h2>China</h2>
+        <div class="caption">
+            <h3>Walk the Great Wall of China</h3>
+            <p> The Great Wall of China is one of the greatest sights in the world — the longest wall in the world, an awe-inspiring feat of ancient defensive architecture. Its winding path over rugged country and steep mountains takes in some great scenery. The Great Wall of China is the must-visit China attraction.</p>
         </div>
-        <div class="gallery__card">
-          <img
-            class="gallery__image"
-            src="./images/experiences_flying.jpg"
-            alt="baloon"
-          />
-          <p><a class="gallery__link" href="">Experiences</a></p>
+        <img class="chinaImage" src="images/china1.jpeg" alt="China ">
+    </div>
+
+    <div class="col">
+        <h2>New York</h2>
+        <div class="caption">
+            <h3>Top of the Rock</h3>
+            <p> The views of NYC from Top of the Rock are not to be missed. Sharing the warm air and sweeping views of Central Park and Manhattan's Midtown and downtown skyscrapers with family and friends is an experience that is truly unforgettable.</p>
         </div>
-      </section>
-    </main>
+        <img class="newyorkImage" src="images/newyork1.jpeg" alt="New York">
+    </div>
+
+</div>
+
+
+
+
+
+
 
     <!-- FOOTER (KATE) -->
     <footer class="footer">
-      <a href="./index.html">
+      <div>
         <img class="footer__image" src="./images/plane.png" alt="" />
-      </a>
+      </div>
 
       <div class="footer__nav">
         <div class="footer__madeby">
@@ -84,7 +100,7 @@
             <li>
               <h3>Explore</h3>
             </li>
-            <li><a href="./destinations.html" class="footer__explore__link">Destinations</a></li>
+            <li><a href="" class="footer__explore__link">Destinations</a></li>
             <li><a href="" class="footer__explore__link">Excursions</a></li>
             <li><a href="" class="footer__explore__link">Travel advice</a></li>
             <li><a href="" class="footer__explore__link">Blog</a></li>
@@ -104,7 +120,7 @@
           </ul>
         </div>
 
-        <form id="contact" class="footer__form">
+        <form class="footer__form">
           <h3>Get in Touch</h3>
           <div>
             <label for="name">Name</label>
@@ -122,7 +138,7 @@
               id="message"
               name="message"
               rows="4"
-              cols="40"
+              cols="50"
               maxlength="50"
             >
                     Type here</textarea

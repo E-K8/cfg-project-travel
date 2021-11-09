@@ -171,6 +171,11 @@
                                                     
                                                     .header__logo {
                                                         max-height: 3rem;
+                                                        transition-duration: 0.5s;
+                                                    }
+                                                    
+                                                    .header__logo:hover {
+                                                        transform: rotate(45deg);
                                                     }
                                                     
                                                     .header__nav {
@@ -190,12 +195,54 @@
                                                         text-decoration: none;
                                                         color: #fff;
                                                         font-size: 1.3rem;
+                                                        transition-duration: 0.3s;
+                                                    }
+                                                    
+                                                    .header__link:hover {
+                                                        color: #752C10;
+                                                        font-weight: bold;
                                                     }
                                                     
                                                     .subheader {
                                                         display: flex;
                                                         justify-content: center;
                                                         text-transform: uppercase;
+                                                        color: #0a3546;
+                                                    }
+                                                    /* MAIN STYLES */
+                                                    
+                                                    .gallery {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        justify-content: space-around;
+                                                    }
+                                                    
+                                                    .gallery__card {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        align-items: center;
+                                                        width: 30%;
+                                                    }
+                                                    
+                                                    .gallery__image {
+                                                        width: 90%;
+                                                        max-height: 70%;
+                                                        transition-duration: 0.5s;
+                                                    }
+                                                    
+                                                    .gallery__image:hover {
+                                                        transform: scale(1.1);
+                                                    }
+                                                    
+                                                    .gallery__link {
+                                                        text-decoration: none;
+                                                        transition-duration: 0.5s;
+                                                    }
+                                                    
+                                                    .gallery__link:hover {
+                                                        background-color: #105977;
+                                                        color: #fff;
+                                                        font-style: bold;
                                                     }
                                                     /* FOOTER STYLES */
                                                     
@@ -210,11 +257,18 @@
                                                     .footer__nav {
                                                         display: flex;
                                                         align-items: flex-start;
+                                                        width: 100%;
+                                                        justify-content: space-between;
                                                     }
                                                     
                                                     .footer__image {
                                                         max-height: 3rem;
                                                         margin-top: 1.5rem;
+                                                        transition-duration: 0.6s;
+                                                    }
+                                                    
+                                                    .footer__image:hover {
+                                                        transform: rotate(45deg);
                                                     }
                                                     
                                                     .footer__madeby ul li {
@@ -237,10 +291,6 @@
                                                     .footer__useful__link {
                                                         text-decoration: none;
                                                         color: #fff;
-                                                    }
-                                                    
-                                                    .btn {
-                                                        text-transform: uppercase;
                                                     }
                                                     
                                                     .btn {
