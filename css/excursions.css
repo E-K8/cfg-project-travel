@@ -74,7 +74,8 @@ h4 {
   text-align: center;
 }
 
-.thingsToDo{
+
+.thingsToDo{ /* container for the rows of content*/
     width: 1300px;
     height:600px;
     background: #ccc;
@@ -96,7 +97,7 @@ h2{
     padding: 25px;
     position: relative;
     text-align: left;
-    transition: 0.6s;
+    transition: 0.6s; /* speed the rows expand on when hovering over*/
     overflow: hidden;
 }
 
@@ -121,7 +122,7 @@ h2{
 }
 
 .row img{
-    width: 200px;
+    width: 250px;
     position: absolute;
     right: 5%;
     bottom: 15%;
@@ -150,7 +151,7 @@ h2{
   max-width: 950px;
   font-size: 15px;
   margin: 28px 0;
-  display: none;
+  display: none;  /* so it only displays on hover--> */
 }
 
 
