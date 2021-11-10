@@ -88,6 +88,8 @@ h2 {
 .videos {
     text-align: center;
     margin: 45px;
+    display: flex;
+    justify-content: center;
 }
 
 .images {
