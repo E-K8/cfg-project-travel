@@ -1,6 +1,6 @@
 * {
   font-family: "Be Vietnam Pro", sans-serif;
-  outline: 2px solid purple;
+  /* outline: 2px solid purple; */
 }
 
 h4 {
@@ -151,6 +151,19 @@ h4 {
   list-style: none;
 }
 
+.form__name {
+  margin: 0 0 1rem 2rem;
+}
+
+.form__email {
+  margin: 0 0 1rem 2.2rem;
+}
+
+.form__textarea {
+  margin-left: 0.5rem;
+}
+
 .btn {
   text-transform: uppercase;
+  margin: 1rem 0 1rem 5rem;
 }
