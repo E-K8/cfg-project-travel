@@ -17,20 +17,24 @@
   <body>
     <!-- HEADER (KATE) -->
     <header class="header">
-      <a href="index.html">
+      <a href="./index.html">
         <img src="./images/plane.png" alt="logo" class="header__logo" />
       </a>
       <nav class="header__nav">
         <ul class="header__list">
-          <li><a href="" class="header__link">Destinations</a></li>
-          <li><a href="" class="header__link">Excursions</a></li>
-          <li><a href="" class="header__link">Travel advice</a></li>
-          <li><a href="" class="header__link">Blog</a></li>
-          <li><a href="" class="header__link">Get in Touch</a></li>
+          <li>
+            <a href="./destinations.html" class="header__link">Destinations</a>
+          </li>
+          <li>
+            <a href="./excursions.html" class="header__link">Excursions</a>
+          </li>
+          <li>
+            <a href="./travel_blog.html" class="header__link">Travel blog</a>
+          </li>
+          <li><a href="#contact" class="header__link">Get in Touch</a></li>
         </ul>
       </nav>
     </header>
-
 
 
 
@@ -41,34 +45,59 @@
 </div>
 
 
-<div class = "destinations">
+<div class = "thingsToDo">
 
-    <div class="col">
+    <div class="row">
         <h2>Rome</h2>
         <div class="caption">
             <h3>Visit the Colosseum</h3>
             <p> With a capacity of more than 50,000 spectators, it’s the largest amphitheater in the Roman world.  Quite much blood was shed in these arenas, where the famous gladiatorial combats, animals fights and Roman games were held, always followed by horrific deaths.</p>
+            <img class="romeImage" src="images/rome1.jpeg" alt="Rome "> 
         </div>
-        <img class="romeImage" src="images/rome1.jpeg" alt="Rome ">
+        
     </div>
 
-    <div class="col">
+    <div class="row">
         <h2>China</h2>
         <div class="caption">
             <h3>Walk the Great Wall of China</h3>
             <p> The Great Wall of China is one of the greatest sights in the world — the longest wall in the world, an awe-inspiring feat of ancient defensive architecture. Its winding path over rugged country and steep mountains takes in some great scenery. The Great Wall of China is the must-visit China attraction.</p>
+            <img class="chinaImage" src="images/china1.jpeg" alt="China ">
         </div>
-        <img class="chinaImage" src="images/china1.jpeg" alt="China ">
     </div>
 
-    <div class="col">
+    <div class="row">
         <h2>New York</h2>
         <div class="caption">
             <h3>Top of the Rock</h3>
             <p> The views of NYC from Top of the Rock are not to be missed. Sharing the warm air and sweeping views of Central Park and Manhattan's Midtown and downtown skyscrapers with family and friends is an experience that is truly unforgettable.</p>
+            <img class="newyorkImage" src="images/newyork1.jpeg" alt="New York">
         </div>
-        <img class="newyorkImage" src="images/newyork1.jpeg" alt="New York">
     </div>
+
+    <div class="row">
+      <h2>Australia</h2>
+      <div class="caption">
+          <h3>Snorkel in the Great Barrier Reef</h3>
+          <p> The views of NYC from Top of the Rock are not to be missed. Sharing the warm air and sweeping views of Central Park and Manhattan's Midtown and downtown skyscrapers with family and friends is an experience that is truly unforgettable.</p>
+          <img class="ausImage" src="images/aus1.jpeg" alt="Australia">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <h2>Peru</h2>
+      <div class="caption">
+          <h3>Explore Machu Picchu</h3>
+          <p> Visit this world-renowned Inca site, that is one of the most pictured attractions in the world. This excursion is a once in a lifetime experience that will leave you with everlasting memories.</p>
+          <img class="peruImage" src="images/peru1.jpeg" alt="Peru">
+      </div>
+    
+    </div>
+
+    
+  
+</div>
 
 </div>
 
@@ -80,9 +109,9 @@
 
     <!-- FOOTER (KATE) -->
     <footer class="footer">
-      <div>
+      <a href="./index.html">
         <img class="footer__image" src="./images/plane.png" alt="" />
-      </div>
+      </a>
 
       <div class="footer__nav">
         <div class="footer__madeby">
@@ -100,10 +129,21 @@
             <li>
               <h3>Explore</h3>
             </li>
-            <li><a href="" class="footer__explore__link">Destinations</a></li>
-            <li><a href="" class="footer__explore__link">Excursions</a></li>
-            <li><a href="" class="footer__explore__link">Travel advice</a></li>
-            <li><a href="" class="footer__explore__link">Blog</a></li>
+            <li>
+              <a href="./destinations.html" class="footer__explore__link">
+                Destinations
+              </a>
+            </li>
+            <li>
+              <a href="./excursions.html" class="footer__explore__link">
+                Excursions
+              </a>
+            </li>
+            <li>
+              <a href="./travel_blog.html" class="footer__explore__link">
+                Travel Blog
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -120,29 +160,42 @@
           </ul>
         </div>
 
-        <form class="footer__form">
+        <form id="contact" class="footer__form">
           <h3>Get in Touch</h3>
           <div>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" value="Your name" />
+            <input
+              class="form__name"
+              type="text"
+              id="name"
+              name="name"
+              value=""
+              size="30"
+            />
           </div>
 
           <div>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" value="Your email" />
+            <input
+              class="form__email"
+              type="email"
+              id="email"
+              name="email"
+              value=""
+              size="30"
+            />
           </div>
 
           <div>
             <label for="message">Message</label>
             <textarea
+              class="form__textarea"
               id="message"
               name="message"
               rows="4"
-              cols="50"
+              cols="40"
               maxlength="50"
-            >
-                    Type here</textarea
-            >
+            ></textarea>
           </div>
 
           <button class="btn">submit</button>
