@@ -68,6 +68,7 @@ h4 {
 
 /* EXCURSIONS CSS */
 
+
 .title{
   color: #105977;
   font-size: 20px;
@@ -82,6 +83,7 @@ h4 {
     margin: 10px auto;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
 h2{
@@ -89,6 +91,7 @@ h2{
   font-size: 22px;
   font-weight: 600;
 }
+
 .row{
     height: 100%;
     flex: 1;
@@ -126,13 +129,15 @@ h2{
     position: absolute;
     right: 5%;
     bottom: 15%;
-    transition: 0.2s;
+    transition: 0.6s;
     
 }
 
 .row:hover{     
   transform: scale(1.1);
-  flex-grow: 4.5;
+  flex-grow: 10;
+  max-width: 100%;
+  height: auto;
 }
 
 .row:hover .caption{
@@ -154,7 +159,40 @@ h2{
   display: none;  /* so it only displays on hover--> */
 }
 
+#row {
+  display: flex;
+  justify-content: center;
+}
 
+#caption{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .romeImage {display:none;}
+}
+
+@media screen and (max-width: 1200px) {
+
+  .chinaImage {display:none;}
+}
+
+@media screen and (max-width: 1200px) {
+
+  .newyorkImage {display:none;}
+}
+
+@media screen and (max-width: 1200px) {
+
+  .ausImage {display:none;}
+}
+
+@media screen and (max-width: 1200px) {
+
+  .peruImage {display:none;}
+}
 
 /* FOOTER STYLES */
 .footer {
@@ -220,3 +258,4 @@ h2{
   text-transform: uppercase;
   margin: 1rem 0 1rem 5rem;
 }
+
