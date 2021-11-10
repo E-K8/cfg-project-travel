@@ -61,6 +61,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: #105977;
+  font-size: 25px;
+  text-align: center;
+}
+
 .blogPost {
   width: 33.3%;
   height: 300px ;
@@ -314,4 +320,5 @@ font-size: 30px
 }
 
 /* end footer */
+
 
