@@ -53,31 +53,29 @@
 }
 /* end header */
 
-
-h1 {
-  text-align: center;
-  padding-top: 25px;
-}
-
 h2 {
   color: #105977;
   font-size: 30px;
+  text-align: center;
 }
 
 .blogPost {
-    width: 33.3%;
-    height: 300px ;
-    padding: 5px;
-    float: left;
+  width: 33.3%;
+  height: 300px ;
+  padding: 5px;
+  float: left;
+}
 
-  }
+.blogPost2 {
+  width: 33.3%;
+  height: 300px ;
+  padding: 5px;
+  float: right;
+}
 
-  .blogPost2 {
-    width: 33.3%;
-    height: 300px ;
-    padding: 5px;
-    float: right;
-  }
+p {
+  text-align:justify;
+}
 
   /*moving list*/
 
@@ -87,6 +85,8 @@ h2 {
   width: 100%;
   vertical-align: middle;
   background-color:darkcyan;
+  border:black;
+  border-style: double;
 }
 
 .WorkcationList {
@@ -95,6 +95,7 @@ h2 {
   font-weight: bold;
   width: 100%;
   text-align: center;
+  color: white;
 }
 
 ul {
@@ -112,8 +113,7 @@ ul li {
   list-style:repeating-radial-gradient()
 }
 
-ul li input[type="checkbox"] 
-{ 
+ul li input[type="checkbox"] { 
   display: none;
 }
 
@@ -125,13 +125,11 @@ ul li span.list {
   transition: 0.5s;
 }
 
-ul li input[type= "checkbox"]:checked ~ span.list
-{
-color: white;
+ul li input[type= "checkbox"]:checked ~ span.list{
+  color: white;
 }
 
-ul li span.list:before
-{
+ul li span.list:before{
   content: '' ;
   position: absolute;
   top: 0;
@@ -143,8 +141,7 @@ ul li span.list:before
   transition-delay: 0.2s;
 }
 
-ul li input[type= "checkbox"]:checked ~ span.list::before
-{
+ul li input[type= "checkbox"]:checked ~ span.list::before{
   left: 100%;
   transition-delay: 00.5s;
 }
@@ -192,7 +189,6 @@ font-size: 30px
   font-size: 18px;
   font-style: normal;
   text-align: center;
-
 }
 
 /* quiz*/
@@ -207,14 +203,22 @@ font-size: 30px
   background-color:orange;
   margin-bottom: 2rem;
   border-radius: 5rem;
-  
+  border:black;
+  border-style: double;
 }
 
 #submitButton {
   background-color: rgb(7, 7, 6);
   color: #fff;
   margin-left: 10 ;
+}
 
+#results {
+  background-color:orange;
+  margin-bottom: 2rem;
+  border-radius: 5rem;
+  border:black;
+  border-style: double;
 }
 
 /* FOOTER STYLES */
