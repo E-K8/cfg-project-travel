@@ -22,10 +22,15 @@
       </a>
       <nav class="header__nav">
         <ul class="header__list">
-          <li><a href="./destinations.html" class="header__link">Destinations</a></li>
-          <li><a href="" class="header__link">Excursions</a></li>
-          <li><a href="" class="header__link">Travel advice</a></li>
-          <li><a href="" class="header__link">Blog</a></li>
+          <li>
+            <a href="./destinations.html" class="header__link">Destinations</a>
+          </li>
+          <li>
+            <a href="./excursions.html" class="header__link">Excursions</a>
+          </li>
+          <li>
+            <a href="./travel_blog.html" class="header__link">Travel blog</a>
+          </li>
           <li><a href="#contact" class="header__link">Get in Touch</a></li>
         </ul>
       </nav>
@@ -41,7 +46,9 @@
             src="./images/destination_croatia.jpg"
             alt="Dubrovnik"
           />
-          <p><a class="gallery__link" href="./destinations.html">Destinations</a></p>
+          <p>
+            <a class="gallery__link" href="./destinations.html">Destinations</a>
+          </p>
         </div>
         <div class="gallery__card">
           <img
@@ -49,7 +56,9 @@
             src="./images/excursions_greece.jpg"
             alt="Guatemala"
           />
-          <p><a class="gallery__link" href="">Excursions</a></p>
+          <p>
+            <a class="gallery__link" href="./excursions.html">Excursions</a>
+          </p>
         </div>
         <div class="gallery__card">
           <img
@@ -57,7 +66,9 @@
             src="./images/experiences_flying.jpg"
             alt="baloon"
           />
-          <p><a class="gallery__link" href="">Experiences</a></p>
+          <p>
+            <a class="gallery__link" href="./travel_blog.html">Experiences</a>
+          </p>
         </div>
       </section>
     </main>
@@ -84,10 +95,21 @@
             <li>
               <h3>Explore</h3>
             </li>
-            <li><a href="./destinations.html" class="footer__explore__link">Destinations</a></li>
-            <li><a href="" class="footer__explore__link">Excursions</a></li>
-            <li><a href="" class="footer__explore__link">Travel advice</a></li>
-            <li><a href="" class="footer__explore__link">Blog</a></li>
+            <li>
+              <a href="./destinations.html" class="footer__explore__link">
+                Destinations
+              </a>
+            </li>
+            <li>
+              <a href="./excursions.html" class="footer__explore__link">
+                Excursions
+              </a>
+            </li>
+            <li>
+              <a href="./travel_blog.html" class="footer__explore__link">
+                Travel Blog
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -108,25 +130,38 @@
           <h3>Get in Touch</h3>
           <div>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" value="Your name" />
+            <input
+              class="form__name"
+              type="text"
+              id="name"
+              name="name"
+              value=""
+              size="30"
+            />
           </div>
 
           <div>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" value="Your email" />
+            <input
+              class="form__email"
+              type="email"
+              id="email"
+              name="email"
+              value=""
+              size="30"
+            />
           </div>
 
           <div>
             <label for="message">Message</label>
             <textarea
+              class="form__textarea"
               id="message"
               name="message"
               rows="4"
               cols="40"
               maxlength="50"
-            >
-                    Type here</textarea
-            >
+            ></textarea>
           </div>
 
           <button class="btn">submit</button>

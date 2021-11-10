@@ -1,6 +1,5 @@
 * {
   font-family: "Be Vietnam Pro", sans-serif;
-  /* overflow-x: hidden; */
   /* outline: 2px solid purple; */
 }
 
@@ -11,7 +10,7 @@ h4 {
 .container {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   align-items: center;
 }
 
@@ -30,7 +29,7 @@ h4 {
   transition-duration: 0.5s;
 }
 
-.header__logo:hover{
+.header__logo:hover {
   transform: rotate(45deg);
 }
 
@@ -53,8 +52,8 @@ h4 {
   transition-duration: 0.3s;
 }
 
-.header__link:hover{
-  color: #752C10;
+.header__link:hover {
+  color: #752c10;
   font-weight: bold;
 }
 
@@ -62,7 +61,9 @@ h4 {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
-  color: #0a3546;
+  /* color: #0a3546; */
+  color: #105977;
+  padding: 1.5rem 0;
 }
 
 /* MAIN STYLES */
@@ -85,22 +86,22 @@ h4 {
   transition-duration: 0.5s;
 }
 
-.gallery__image:hover{
+.gallery__image:hover {
   transform: scale(1.1);
 }
 
 .gallery__link {
+  color: black;
   text-decoration: none;
   transition-duration: 0.5s;
 }
 
-.gallery__link:hover {   
+.gallery__link:hover {
   background-color: #105977;
   color: #fff;
 
   font-style: bold;
 }
-
 
 /* FOOTER STYLES */
 .footer {
@@ -134,18 +135,35 @@ h4 {
 .footer__explore ul li {
   list-style: none;
 }
-.footer__explore__link {
-  text-decoration: none;
-  color: #fff;
-}
-.footer__useful ul li {
-  list-style: none;
-}
+.footer__explore__link,
 .footer__useful__link {
   text-decoration: none;
   color: #fff;
+  transition-duration: 0.3s;
+}
+
+.footer__explore__link:hover,
+.footer__useful__link:hover {
+  color: #752c10;
+}
+
+.footer__useful ul li {
+  list-style: none;
+}
+
+.form__name {
+  margin: 0 0 1rem 2rem;
+}
+
+.form__email {
+  margin: 0 0 1rem 2.2rem;
+}
+
+.form__textarea {
+  margin-left: 0.5rem;
 }
 
 .btn {
   text-transform: uppercase;
+  margin: 1rem 0 1rem 5rem;
 }
