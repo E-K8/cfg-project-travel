@@ -99,8 +99,7 @@ h4 {
 .gallery__link:hover {
   background-color: #105977;
   color: #fff;
-
-  font-style: bold;
+  font: bold;
 }
 
 /* FOOTER STYLES */
