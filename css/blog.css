@@ -176,7 +176,6 @@ ul {
   padding: 10px 25px;
   border: 10px;
   border-top: none;
-  align-content: left;
 }
 
 ul li {
@@ -184,7 +183,6 @@ ul li {
   margin: 5px 0;
   text-align: center;
   font-size: 16px;
-  list-style:repeating-radial-gradient()
 }
 
 ul li input[type="checkbox"] { 
@@ -197,10 +195,6 @@ ul li span.list {
   overflow: hidden;
   padding: 0 5px;
   transition: 0.5s;
-}
-
-ul li input[type= "checkbox"]:checked ~ span.list{
-  color: black;
 }
 
 ul li span.list:before{
