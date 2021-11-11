@@ -67,20 +67,62 @@ h3 {
   text-align: center;
 }
 
+/*blog posts*/
+
+.first {
+  border: black;
+  border-style: double;
+  background-color: #F0FCFE;
+}
+
+.second {
+  border: black;
+  border-style: double;
+  background-color: #B7D9E2;
+}
+
+.third {
+  border: black;
+  border-style: double;
+  background-color: #86B6C6;
+}
+
+.fourth {
+  border: black;
+  border-style: double;
+  background-color: #5C93AA;
+}
+
+.quizDiv {
+  border: black;
+  border-style: double;
+  background-color: #3A728E;
+}
+
+
 .blogPost {
   width: 33.3%;
-  height: 300px ;
+  height: 300px;
+  object-fit: cover;
   padding: 5px;
   float: left;
 }
 
+.blogPost:hover {
+  opacity: 70%;
+}
+
 .blogPost2 {
   width: 33.3%;
-  height: 300px ;
+  height: 300px;
+  object-fit: cover;
   padding: 5px;
   float: right;
 }
 
+.blogPost2:hover {
+  opacity: 70%;
+}
 p {
   text-align:justify;
 }
@@ -88,11 +130,15 @@ p {
   /*moving list*/
 
 .checklist {
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left:15.15%;
+  margin-right:15.15%;
   min-height: 10em;
-  width: 100%;
+  width: 66.6%;
   vertical-align: middle;
-  background-color:darkcyan;
+  background-color:#105977;
+  color: #fff;
   border:black;
   border-style: double;
 }
@@ -116,7 +162,7 @@ ul {
 ul li {
   list-style-type: none;
   margin: 5px 0;
-  text-align: left;
+  text-align: center;
   font-size: 16px;
   list-style:repeating-radial-gradient()
 }
@@ -134,7 +180,7 @@ ul li span.list {
 }
 
 ul li input[type= "checkbox"]:checked ~ span.list{
-  color: white;
+  color: black;
 }
 
 ul li span.list:before{
@@ -149,15 +195,14 @@ ul li span.list:before{
   transition-delay: 0.2s;
 }
 
+ul li:hover{
+ opacity: 70%; 
+ transition-duration: 0.5s;
+}
+
 ul li input[type= "checkbox"]:checked ~ span.list::before{
   left: 100%;
   transition-delay: 00.5s;
-}
-
-
-button {
-  cursor: pointer;
-  outline: none;
 }
 
 .container {
@@ -208,11 +253,13 @@ font-size: 30px
 }
 
 #quiz {
-  background-color:orange;
+  border: black;
+  border-style: double;
+  background-color: orange;
   margin-bottom: 2rem;
   border-radius: 5rem;
-  border:black;
-  border-style: double;
+  margin-left: 15.15%;
+  margin-right: 15.15%;
 }
 
 #submitButton {
@@ -225,7 +272,7 @@ font-size: 30px
   background-color:orange;
   margin-bottom: 2rem;
   border-radius: 5rem;
-  border:black;
+  border:white;
   border-style: double;
 }
 
@@ -320,5 +367,6 @@ font-size: 30px
 }
 
 /* end footer */
+
 
 
