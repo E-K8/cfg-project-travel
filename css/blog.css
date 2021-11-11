@@ -117,6 +117,7 @@ h3 {
   background-color: #3A728E;
 }
 
+/* images*/
 
 .blogPost {
   width: 33.3%;
@@ -127,7 +128,7 @@ h3 {
 }
 
 .blogPost:hover {
-  opacity: 70%;
+  opacity: 60%;
 }
 
 .blogPost2 {
@@ -139,8 +140,9 @@ h3 {
 }
 
 .blogPost2:hover {
-  opacity: 70%;
+  opacity: 60%;
 }
+
 p {
   text-align:justify;
 }
@@ -214,8 +216,8 @@ ul li span.list:before{
 }
 
 ul li:hover{
- opacity: 70%; 
- transition-duration: 0.5s;
+ color: orange; 
+ transition-duration: 0.2s;
 }
 
 ul li input[type= "checkbox"]:checked ~ span.list::before{
@@ -241,49 +243,34 @@ font-size: 30px
 .quizTitle {
   align-content: center;
   margin-bottom: 2rem;
+  border: 10rem;
   color: #105977;
   font-size: 30px
 }
 
-#quiz {
-  background-color: orange;
-  text-align: center;
-  margin-bottom: 30rem;
-  font-size: 18px;
-  font-style: normal;
-  color: black; 
-}
-
-#submitButton {
-  background-color: orange;
-  color: #fff;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-}
-
-/* quiz*/
-
-.quizTitle {
-  align-content: center;
-  margin-bottom: 2rem;
-  border-radius: 10rem;
+form {
+  display: inline-block;
 }
 
 #quiz {
   border: black;
   border-style: double;
   background-color: orange;
-  margin-bottom: 2rem;
+  text-align: center;
   border-radius: 5rem;
-  margin-left: 15.15%;
-  margin-right: 15.15%;
+  margin-left: 33.33%;
+  margin-right: 33.33%;
+  font-size: 18px;
+  font-style: normal;
+  color: black; 
 }
 
 #submitButton {
-  background-color: rgb(7, 7, 6);
+  background-color: black;
   color: #fff;
-  margin-left: 10 ;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
 }
 
 #results {
