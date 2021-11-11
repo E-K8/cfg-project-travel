@@ -242,6 +242,15 @@ ul li input[type= "checkbox"]:checked ~ span.list::before{
 }
 /* quiz*/
 
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+
 .quizTitle {
   align-content: center;
   margin-bottom: 2rem;
@@ -282,6 +291,7 @@ form {
   border-radius: 5rem;
   border:white;
   border-style: double;
+}
 }
 
 /* FOOTER STYLES */
@@ -410,6 +420,7 @@ form {
 }
 
 /* FOOTER end */
+
 
 
 
