@@ -24,6 +24,7 @@ h4 {
   align-items: center;
   height: 5rem;
 }
+
 .header__logo {
   max-height: 3rem;
   transition-duration: 0.5s;
@@ -45,6 +46,7 @@ h4 {
   width: 100%;
   justify-content: space-between;
 }
+
 .header__link {
   text-decoration: none;
   color: #fff;
@@ -66,7 +68,23 @@ h4 {
   padding: 1.5rem 0;
 }
 
+/* HEADER responsiveness */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+  .header__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 579px) {
+  .header__list {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+}
+
 /* EXCURSIONS CSS */
+
 
 
 .title{
@@ -77,13 +95,14 @@ h4 {
 
 
 .thingsToDo{ /* container for the rows of content*/
-    width: 1300px;
+    width: 1000px;
     height:600px;
     background: #ccc;
     margin: 10px auto;
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    flex-flow: column wrap;
 }
 
 h2{
@@ -102,6 +121,7 @@ h2{
     text-align: left;
     transition: 0.6s; /* speed the rows expand on when hovering over*/
     overflow: hidden;
+    
 }
 
 .row:nth-child(1){
@@ -149,11 +169,11 @@ h2{
 }
 
 .row:hover .h2{
-  text-align: left;
+  text-align: center;
 }
 
 .caption{
-  max-width: 950px;
+  max-width: 600px;  
   font-size: 15px;
   margin: 28px 0;
   display: none;  /* so it only displays on hover--> */
@@ -162,34 +182,52 @@ h2{
 #row {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 #caption{
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
-@media screen and (max-width: 1200px) {
+/* RESPONSIVENESS */
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .thingsToDo {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
 
   .romeImage {display:none;}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 
   .chinaImage {display:none;}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 
   .newyorkImage {display:none;}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 
   .ausImage {display:none;}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 
   .peruImage {display:none;}
 }
@@ -259,3 +297,62 @@ h2{
   margin: 1rem 0 1rem 5rem;
 }
 
+/* FOOTER responsiveness */
+@media screen and (min-width: 550px) and (max-width: 1176px) {
+  .footer__nav {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 444px) and (max-width: 549px) {
+  .footer__nav {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .form__name,
+  .form__email {
+    width: 10rem;
+  }
+
+  .form__textarea {
+    width: 10.2rem;
+  }
+}
+
+@media screen and (min-width: 387px) and (max-width: 443px) {
+  .footer__nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__form {
+    padding-left: 2.5rem;
+  }
+
+  .form__name,
+  .form__email {
+    width: 10rem;
+  }
+
+  .form__textarea {
+    width: 10.2rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 386px) {
+  .footer__nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__name,
+  .form__email {
+    width: 8.3rem;
+  }
+
+  .form__textarea {
+    width: 8.5rem;
+  }
+}
