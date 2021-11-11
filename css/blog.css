@@ -204,12 +204,18 @@ ul li input[type="checkbox"] {
   display: none;
 }
 
+
 ul li span.list {
   position: relative;
   display: inline-block;
   overflow: hidden;
   padding: 0 5px;
   transition: 0.5s;
+}
+
+ul li input[type= "checkbox"]:checked ~ span.list
+{
+  color: black;
 }
 
 ul li span.list:before{
@@ -233,7 +239,6 @@ ul li input[type= "checkbox"]:checked ~ span.list::before{
   left: 100%;
   transition-delay: 00.5s;
 }
-
 /* quiz*/
 
 .quizTitle {
@@ -403,5 +408,6 @@ form {
 }
 
 /* FOOTER end */
+
 
 
