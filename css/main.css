@@ -24,6 +24,7 @@ h4 {
   align-items: center;
   height: 5rem;
 }
+
 .header__logo {
   max-height: 3rem;
   transition-duration: 0.5s;
@@ -45,6 +46,7 @@ h4 {
   width: 100%;
   justify-content: space-between;
 }
+
 .header__link {
   text-decoration: none;
   color: #fff;
@@ -64,6 +66,21 @@ h4 {
   /* color: #0a3546; */
   color: #105977;
   padding: 1.5rem 0;
+}
+
+/* HEADER responsiveness */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+  .header__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 579px) {
+  .header__list {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
 }
 
 /* MAIN STYLES */
