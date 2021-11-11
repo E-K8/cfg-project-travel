@@ -121,6 +121,33 @@ h4 {
   font: bold;
 }
 
+/* MAIN responsiveness */
+
+@media screen and (min-width: 550px) and (max-width: 839px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .gallery__image {
+    height: 60%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 549px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
+  .gallery__card {
+    width: 80%;
+  }
+}
+
 /* FOOTER STYLES */
 .footer {
   display: flex;
