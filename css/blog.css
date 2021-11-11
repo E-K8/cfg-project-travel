@@ -102,28 +102,48 @@ h3 {
   width: 100%;
   }
 
+@media (min-width: 600px) {
+  .column {
+  width: 50%;
+  }
 .first {
   border: black;
   border-style: double;
   background-color: #F0FCFE;
 }
+}
 
+@media (min-width: 600px) {
+  .column {
+  width: 50%;
+  }
 .second {
   border: black;
   border-style: double;
   background-color: #B7D9E2;
 }
+}
 
+@media (min-width: 600px) {
+  .column {
+  width: 50%;
+  }
 .third {
   border: black;
   border-style: double;
   background-color: #86B6C6;
 }
+}
 
+@media (min-width: 600px) {
+  .column {
+  width: 50%;
+  }
 .fourth {
   border: black;
   border-style: double;
   background-color: #5C93AA;
+}
 }
 
 .quizDiv {
@@ -420,6 +440,7 @@ form {
 }
 
 /* FOOTER end */
+
 
 
 
