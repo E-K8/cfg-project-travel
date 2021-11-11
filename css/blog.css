@@ -171,6 +171,7 @@ p {
   margin-right:15.15%;
   min-height: 10em;
   width: 66.6%;
+  border-radius: 5rem;
   vertical-align: middle;
   background-color:#105977;
   color: #fff;
@@ -258,9 +259,10 @@ form {
   border-style: double;
   background-color: orange;
   text-align: center;
+  width: 33.3%;
+  margin-left:33.3%;
+  margin-right:33.3%;
   border-radius: 5rem;
-  margin-left: 33.33%;
-  margin-right: 33.33%;
   font-size: 18px;
   font-style: normal;
   color: black; 
@@ -408,6 +410,8 @@ form {
 }
 
 /* FOOTER end */
+
+
 
 
 
