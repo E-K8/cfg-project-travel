@@ -207,6 +207,13 @@ h2{
   }
 }
 
+@media screen and (min-width: 320px) {
+  .caption {
+    font-size: 14px;
+  }
+}
+
+
 @media screen and (max-width: 1000px) {
 
   .romeImage {display:none;}
