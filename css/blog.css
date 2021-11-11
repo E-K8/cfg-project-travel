@@ -12,6 +12,7 @@
   align-items: center;
   height: 5rem;
 }
+
 .header__logo {
   max-height: 3rem;
   transition-duration: 0.5s;
@@ -33,6 +34,7 @@
   width: 100%;
   justify-content: space-between;
 }
+
 .header__link {
   text-decoration: none;
   color: #fff;
@@ -53,7 +55,23 @@
   color: #105977;
   padding: 1.5rem 0;
 }
-/* end header */
+
+/* HEADER responsiveness */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+  .header__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 579px) {
+  .header__list {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+}
+
+/* HEADER END */
 
 h2 {
   color: #105977;
@@ -346,27 +364,60 @@ font-size: 30px
   .footer__nav {
     flex-wrap: wrap;
     justify-content: space-around;
-    /* display: flex;
-    align-items: flex-start;
-    width: 100%;
-    justify-content: space-between; */
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 549px) {
+@media screen and (min-width: 444px) and (max-width: 549px) {
   .footer__nav {
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
   .form__name,
-  .form__email,
-  .form__textarea {
+  .form__email {
     width: 10rem;
+  }
+
+  .form__textarea {
+    width: 10.2rem;
   }
 }
 
-/* end footer */
+@media screen and (min-width: 387px) and (max-width: 443px) {
+  .footer__nav {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .footer__form {
+    padding-left: 2.5rem;
+  }
 
+  .form__name,
+  .form__email {
+    width: 10rem;
+  }
+
+  .form__textarea {
+    width: 10.2rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 386px) {
+  .footer__nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__name,
+  .form__email {
+    width: 8.3rem;
+  }
+
+  .form__textarea {
+    width: 8.5rem;
+  }
+}
+
+/* FOOTER end */
 
