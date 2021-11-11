@@ -73,6 +73,15 @@
 
 /* HEADER END */
 
+/* title */
+
+.blog_title {
+  color: #105977;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  }
+  
 h2 {
   color: #105977;
   font-size: 30px;
@@ -86,6 +95,12 @@ h3 {
 }
 
 /*blog posts*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
 
 .first {
   border: black;
@@ -217,19 +232,6 @@ ul li:hover{
 ul li input[type= "checkbox"]:checked ~ span.list::before{
   left: 100%;
   transition-delay: 00.5s;
-}
-
-.container {
-display: flex;
-flex-direction: column;
-width: 100%;
-}
-
-/* title */
-
-.blog_title {
-color: #105977;
-font-size: 30px
 }
 
 /* quiz*/
@@ -401,4 +403,5 @@ form {
 }
 
 /* FOOTER end */
+
 
