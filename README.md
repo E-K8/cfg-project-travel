@@ -1,3 +1,4 @@
-# Code First Girls course in web development
+## Code First Girls 8-week web-development course
+### sponsored by NatWest
 
-team project
+[Team project](https://e-k8.github.io/cfg-project-travel/)
